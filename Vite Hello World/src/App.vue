@@ -1,6 +1,10 @@
 <script>
+import NuovoComponente from './components/appTitle.vue'
+
 export default{
-  
+  components: {
+    NuovoComponente
+  }
 }
 </script>
 
@@ -13,7 +17,8 @@ export default{
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <NuovoComponente />
+  
 </template>
 
 <style scoped>
